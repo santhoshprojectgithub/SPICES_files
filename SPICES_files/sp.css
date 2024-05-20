@@ -1,0 +1,121 @@
+
+
+*{  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+#navbar{
+   
+    top: 0;
+    left: 0;
+    padding: auto;
+    box-shadow: 5px 5px 20px rgba(0,0,0,.5);
+    background-color: black;
+}
+
+.navbar .navbar-brand {
+   font-weight: 900;
+   font-size: 25px;
+   color: hsl(120, 79%, 50%) !important;
+}
+
+#navbarSupportedContent a{
+    color: white;
+    border-bottom: 2px solid transparent;
+}
+#navbarSupportedContent a:hover{
+    border-bottom: 2px solid #17f217;
+}
+
+#navbarSupportedContent button{
+    background-color: hsl(120, 89%, 49%);
+    width:  5rem;
+    border-radius: 15px;
+}
+
+section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#home{
+    background-image: url(ratul-ghosh-NPrWYa69Mz0-unsplash.jpg);
+    background-size: cover   ;
+    background-position: center;
+    flex-direction: column;
+}
+
+#home h1{
+    font-size: 100px;
+    color: white;
+    letter-spacing: 3px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;         
+}
+p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 200;
+    color: rgb(red, green, #02021ac2);
+}
+#home .input-group{
+    width: 40%;
+    height: 45px;
+}
+button{
+    background: green !important;
+    color: white !important;
+}
+
+#about{
+    background-color: hsl(328, 87%, 50%);
+}
+#about p{
+    color: white;
+    font-weight: 400;
+    font-size: medium;
+}
+#about h1{
+    color: white;
+
+}
+img{
+    margin-top: 60px;
+    margin-bottom: 10px;
+}
+
+#product{
+    background-color: #f0f8ffc8;
+}
+.card{
+  
+    background:hsla(210, 5%, 76%, 0.784) !important ;
+    border:none !important;
+    box-shadow: 15px 20px 20px rgba(0,0,0,.3)
+    ,
+    inset 4px 4px 10px #a7a1a1;
+    border-radius: 20px !important;
+    overflow: hidden;
+    justify-content: center;
+    align-items:center ;
+    margin: 20px 60px;
+    transition: .2s;
+}
+.card:hover{
+    box-shadow: inset 6px 7px  15px rgba(0,0,0,.3),
+                inset 4px 4px 10px whitesmoke;
+    transition: .2s;
+   
+
+}
+
+#contact img{
+    border-radius: 50px;
+}
+#contact{
+    background-color: #c3d5e4;
+}
